@@ -37,7 +37,7 @@ An ETL solution designed to process telecom transaction data received through CS
 Invalid records are stored in a separate rejection table. The original CSV filename is also recorded to support tracking and auditing.
 
 ## File Archiving
-After successful data loading, the processed CSV file is moved to the `Archive/Processed` folder.
+After successful data loading, the processed CSV file is Copied(you can change it easily) to the `Archive/Processed` folder.
 
 ## Key Features
 - Automated ETL workflow using SSIS

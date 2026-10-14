@@ -1,6 +1,5 @@
 # Telecom Data Warehouse (DWH)
 An ETL (SSIS) Project
-![SSIS Data Flow]C:\Users\LENOVO\Pictures\Screenshots\Screenshot%202026-10-14%20232954.png)
 ## Project Overview
 An ETL solution designed to process telecom transaction data received through CSV files every 5 minutes. The solution validates and transforms the data, loads valid records into SQL Server, handles rejected records separately, and archives processed files.
 

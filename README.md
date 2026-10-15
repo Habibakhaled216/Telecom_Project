@@ -2,7 +2,10 @@
 An ETL (SSIS) Project
 ## Project Overview
 An ETL solution designed to process telecom transaction data received through CSV files every 5 minutes. The solution validates and transforms the data, loads valid records into SQL Server, handles rejected records separately, and archives processed files.
+---------------------------------------------------------------------------------------------
 ![Project Dataset Schema Overview](Image/Screenshot%202026-10-15%20133928.png)
+--------------------------------------------------------------------------------------------
+(Image/Screenshot%202026-10-15%20133944.png)
 ## Tools & Technologies
 - SQL Server
 - SQL Server Integration Services (SSIS)

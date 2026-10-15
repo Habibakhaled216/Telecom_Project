@@ -2,17 +2,6 @@
 An ETL (SSIS) Project
 ## Project Overview
 An ETL solution designed to process telecom transaction data received through CSV files every 5 minutes. The solution validates and transforms the data, loads valid records into SQL Server, handles rejected records separately, and archives processed files.
----------------------------------------------------------------------------------------------
-## Project Dataset Schema Overview
-![Project Dataset Schema Overview](Image/Screenshot%202026-10-15%20133928.png)
---------------------------------------------------------------------------------------------
-![SSIS Screenshot](Image/Screenshot%202026-10-15%20133944.png)
-## Tools & Technologies
-- SQL Server
-- SQL Server Integration Services (SSIS)
-- SQL (T-SQL)
-- CSV Files
-
 ## ETL Workflow
 1. **Extract:** Read incoming CSV files from the source folder.
 2. **Transform:** Apply the required data transformations and look up subscriber information.
@@ -20,6 +9,22 @@ An ETL solution designed to process telecom transaction data received through CS
 4. **Load:** Load valid records into the target SQL Server table.
 5. **Reject:** Store invalid records in a separate table along with the original source filename.
 6. **Archive:** Move successfully processed CSV files to the `Archive/Processed` folder.
+## Project Dataset Schema Overview
+![Project Dataset Schema Overview](Image/Screenshot%202026-10-15%20133928.png)
+--------------------------------------------------------------------------------------------
+![SSIS Screenshot](Image/Screenshot%202026-10-15%20133944.png)
+## Control Flow
+![SSIS Screenshot 1](Image/Screenshot%202026-10-15%20134216.png)
+------------------------------------------------------------------------------------------
+## Data Flow
+![SSIS Screenshot 2](Image/Screenshot%202026-10-15%20134923.png)
+## SQL Server Management Studio
+![SSIS Screenshot 3](Image/Screenshot%202026-10-15%20135320.png)
+## Tools & Technologies
+- SQL Server
+- SQL Server Integration Services (SSIS)
+- SQL (T-SQL)
+- CSV Files
 
 ## Data Transformation Rules
 
